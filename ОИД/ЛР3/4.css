@@ -1,0 +1,56 @@
+.link1 {
+    color: red;
+    text-decoration: none;
+}
+
+.link1:visited {
+    color: #8B0000;
+}
+
+.link1:hover {
+    color: #FFA07A;
+    text-decoration: overline;
+}
+
+.link1:active {
+    color: #CD5C5C;
+}
+
+
+
+.link2 {
+    color: green;
+    text-decoration: none;
+}
+
+.link2:visited {
+    color: #8FBC8F;
+}
+
+.link2:hover {
+    color: #00FF00;
+    text-decoration: underline;
+}
+
+.link2:active {
+    color: #00FA9A;
+}
+
+
+.link3 {
+    color: blue;
+    text-decoration: none;
+}
+
+.link3:visited {
+    color: #000080;
+}
+
+.link3:hover {
+    color: #7B68EE;
+    text-decoration: line-through;
+}
+
+.link3:active {
+    color: #87CEFA;
+}
