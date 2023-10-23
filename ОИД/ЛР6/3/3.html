@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Main information</legend>
+
+            <label for="firstName">Name</label>
+            <input type="text" id="firstName" name="firstName" required size="30"><br>
+
+            <label for="lastName">Surname</label>
+            <input type="text" id="lastName" name="lastName" required size="30"><br>
+
+            <label for="birthdate">Birth date</label>
+            <input type="date" id="birthdate" name="birthdate" required><br>
+
+            <label>I'm 18+</label>
+            <input type="checkbox" id="over18" name="over18" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contacts</legend>
+
+            <label for="phoneNumber">Phone number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="+7" required size="30"><br>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required size="30"><br>
+
+            <label for="socialMedia">Social Net URL</label>
+            <input type="url" id="socialMedia" name="socialMedia" placeholder="https://" size="30"><br>
+        </fieldset>
+        <fieldset>
+            <legend>About</legend>
+            
+            <label for="photo">Photo</label>
+            <input type="file" id="photo" name="photo" accept="image/*"><br>
+
+            <label for="aboutMe">About me</label>
+            <textarea id="aboutMe" name="aboutMe" placeholder="..."></textarea><br>
+
+        </fieldset>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
