@@ -1,8 +1,0 @@
-.label, .input {
-    display: inline-block;
-}
-
-.label label, .input input {
-    display: block;
-    margin-bottom: 10px; 
-}
