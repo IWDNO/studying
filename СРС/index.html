@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Гранд-Мотор</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <div class="logo">
+                <img src="./img/ЛОГО.png" alt="Логотип">
+            </div>
+        </a>
+        <div class="info">
+            <div class="navigation">
+                <a href="./pages/about.html">О компании</a>
+                <a href="./pages/catalog.html">Каталог</a>
+                <a href="#">Сервис</a>
+            </div>
+            <div class="contact-info">
+                <p>Связь с нами:<br>+7 999 888 77 66</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container photo-container">
+        <div class="container">
+            <button class="button" onclick="changeImage(-1)" style="margin-right: 50px; color: white;">❮</button>
+            <div class="content" style="gap: 30px" id="description">
+                <div class="content">
+                    <h2 id="blockTitle">LADA GRANTA</h2>
+                    <p id="blockText">Держит слово</p>
+                </div>
+                <a href="#" class="button-text">Подробнее</a>
+            </div>
+        </div>
+        <button class="button" onclick="changeImage(1)" style="color: white;">❯</button>
+    </div>
+    
+    <div class="container" style="padding-top: 30px;">
+        <div class="heading">Услуги</div>
+    </div>
+    <div class="container">
+        <div class="categories" style="width: 25%; min-width: 200px;">
+            <ul>
+                <li id="tradeIn">Trade-in</li>
+                <li id="financialServices">Финансовые услуги</li>
+                <li id="serviceServices">Сервисные услуги</li>
+                <li id="autoParts">Автозапчасти</li>
+            </ul>
+        </div>
+        <hr class="divider">
+        <img class="image" src="./img/services/tradein.png" alt="Фотография" style="width: 30%; min-width: 200px;" id="serviceImg">
+        <div class="text" id="serviceText" style="width: 43%;">
+            <p id="categoryText" style="min-width: 200px;">
+                Гранд-Мотор продает новые автомобили и с пробегом, отечественные машины и иномарки по системе Trade-in во Владимире и Владимирской области. Вам не нужно встречаться с массой возможных покупателей и подвергать риску себя и свои деньги. Наши специалисты обеспечат высокий уровень обслуживания, полную безопасность и прозрачные условия сделки.
+            </p>
+        </div>
+    </div>
+
+    <div class="container" style="padding-top: 30px;">
+        <div class="heading">Новости</div>
+        <div class="button-container">
+            <button class="button" onclick="changeNews(-1)">❮</button>
+            <button class="button" onclick="changeNews(1)">❯</button>
+        </div>
+    </div>
+    <div class="container click">
+        <div class="text" id="newsTextContainer" style="width: 50%; background: #f8f8f8; min-width: 400px;">
+            <p id="newsText" style="font-size: clamp(24px, 6vw, 36px); text-align: right; margin: 10%;">
+                Changan Alsvin и его потрясающие характеристики
+            </p>
+        </div>
+        <img class="image" src="./img/news/chengan.png" alt="Фотография" style="width: 50%; min-width: 200px;" id="newsImg">
+    </div>
+    
+    <div class="footer">
+        <a href="index.html">
+            <div class="logo">
+                <img src="./img/ЛОГО.png" alt="Логотип">
+            </div>
+        </a>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
