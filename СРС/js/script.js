@@ -52,8 +52,8 @@ function getContent(index) {
     // Здесь вы можете определить текст и другое содержимое для каждой фотографии
     // Например, с использованием массива или объекта
     const contentArray = [
-        { title: 'KIA SORENTO', text: 'Играя главнцю роль' },
         { title: 'LADA GRANTA', text: 'Держит слово'},
+        { title: 'KIA SORENTO', text: 'Играя главнцю роль' },
         { title: 'ВОПЛОЩЕНИЕ ВОВЕРШЕНСТВА UNI-V', text: 'Эстетика в динамике' },
     ];
 

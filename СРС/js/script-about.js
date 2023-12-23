@@ -2,7 +2,7 @@ window.addEventListener('scroll', () => {
     let header = document.getElementById('navigation');
     let other = document.getElementById("other");
     const scrollPosition = window.scrollY;
-    if (scrollPosition > 470) {
+    if (scrollPosition >= 467) {
         header.classList.add('fixed');
         other.style.paddingLeft = "25%";
         other.style.width = "125%";
