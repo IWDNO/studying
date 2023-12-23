@@ -4,12 +4,10 @@ window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY;
     if (scrollPosition >= 467) {
         header.classList.add('fixed');
-        other.style.paddingLeft = "25%";
-        other.style.width = "125%";
+        other.style.marginLeft = "25%";
     } else {
         header.classList.remove('fixed');
-        other.style.paddingLeft = "0";
-        other.style.width = "100%";
+        other.style.marginLeft = "0";
     }
 });
 
