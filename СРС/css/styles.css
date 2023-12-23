@@ -185,7 +185,7 @@ li.active {
 
 
 .divider {
-    border: 1px solid #557a95; /* Толщина и цвет линии */
+    border: 2px solid #557a95; /* Толщина и цвет линии */
     margin: 10px 1%; /* Отступы между линией и соседними блоками */
 }
 
@@ -268,11 +268,11 @@ h3 {
     overflow: hidden;
     width: 300px;
     max-width: 100%;
-    height: 220px;
+    height: 300px;
     text-align: left;
     margin: 1%;
     margin-bottom: 2%;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, opacity 0.2s ease;
 }
 
 .item:hover {
@@ -282,7 +282,7 @@ h3 {
 
 .item img {
     width: 100%;
-    height: auto;
+    height: 75%;
     margin-bottom: 8px;
 }
 
@@ -310,5 +310,31 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 5% 5%;
+    margin: 2% 5%;
+}
+
+.sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sort a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+    padding: 10px;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.sort a:hover {
+    transform: scale(1.05);
+    color: #7395ae;
+}
+
+.sort a.active {
+    color: #7395ae;
+    transform: scale(1.05);
 }

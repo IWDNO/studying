@@ -34,56 +34,66 @@
         </div>
     </div>
 
+    <div class="container" style="justify-content: space-between;">
+        <div class="heading" style="margin-left: 5%;">Сортировка</div>
+        <div class="container sort" style="margin-right: 40%; padding-bottom: 1%;">
+            <a id="popularity" onclick="sortItems('popularity')">По популярности</a>
+            <a id="price" onclick="sortItems('price')">По цене</a>
+            <a id="alphabetically" onclick="sortItems('alphabetically')">По алфавиту</a>
+        </div>
+    </div>
+    <hr class="divider" style="margin-bottom: -4%; margin: 0 5%">
+
     <div class="container catalog">
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="10" data-price="1970000" data-name="CHANGAN CS35PLUS">
+            <img src="../img/catalog/changan.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">CHANGAN CS35PLUS</div>
+                <div class="card-price">1 970 000 ₽</div>
             </div>
         </div>
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="8" data-price="355000" data-name="FIAT Albea">
+            <img src="../img/catalog/fiat.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">FIAT Albea</div>
+                <div class="card-price">355 000 ₽</div>
             </div>
         </div>
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="9" data-price="1960000" data-name="Kia Cerato 2021">
+            <img src="../img/catalog/KIA.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">Kia Cerato 2021</div>
+                <div class="card-price">1 960 000 ₽</div>
             </div>
         </div>
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="6" data-price="960000" data-name="LADA Vesta 2018">
+            <img src="../img/catalog/vesta.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">LADA Vesta 2018</div>
+                <div class="card-price">960 000 ₽</div>
             </div>
         </div>
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="7" data-price="2420000" data-name="KIA SPORTAGE 4 2019 ат">
+            <img src="../img/catalog/sportage.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">KIA SPORTAGE 4 2019 ат</div>
+                <div class="card-price">2 420 000 ₽</div>
             </div>
         </div>
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="5" data-price="2090000" data-name="NISSAN X-TRAIL 2018">
+            <img src="../img/catalog/xtrail.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">NISSAN X-TRAIL 2018</div>
+                <div class="card-price">2 090 000 ₽</div>
             </div>
         </div>
-        <div class="item">
-            <img src="../img/KIA.jpeg" class="image" alt="KIA">
+        <div class="item" data-popularity="4" data-price="760000" data-name="Opel Astra 2011">
+            <img src="../img/catalog/opel.jpg" class="image" alt="KIA">
             <div class="card-contenet">
-                <div class="card-title">Название товара</div>
-                <div class="card-price">$99.99</div>
+                <div class="card-title">Opel Astra 2011</div>
+                <div class="card-price">760 000 ₽</div>
             </div>
-        </div>
+        </div>        
 
     </div>
 
@@ -94,5 +104,6 @@
             </div>
         </a>
     </div>
+    <script src="../js/script-catalog.js"></script>
 </body>
 </html>
