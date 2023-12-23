@@ -6,13 +6,10 @@ window.addEventListener('scroll', () => {
         header.classList.add('fixed');
         other.style.paddingLeft = "25%";
         other.style.width = "125%";
-        // other.style.paddingRight = "-26%";
-        // document.querySelector('body').style.paddingTop = "70px";
     } else {
         header.classList.remove('fixed');
         other.style.paddingLeft = "0";
         other.style.width = "100%";
-        // document.querySelector('body').style.paddingTop = "0px";
     }
 });
 
