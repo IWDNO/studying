@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Сервисные услуги Гранд-Мотор</title>
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../img/ЛОГО.png" alt="Логотип">
+            </div>
+        </a>
+        <div class="info">
+            <div class="navigation">
+                <a href="./about.html">О компании</a>
+                <a href="./catalog.html">Каталог</a>
+                <a href="./services.html">Сервис</a>
+            </div>
+            <div class="contact-info">
+                <p>Связь с нами:<br>+7 999 888 77 66</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container photo-container" style="background: url(../img/about/about.png);">
+        <div class="content" style="gap: 30px; margin-left: 100px;" id="description">
+            <div class="content">
+                <h2 id="blockTitle">Сервис</h2>
+                <p id="blockText" style="max-width: 500px;">Наши профессионалы обеспечивают выдающийся сервис, поддерживая ваш автомобиль в отличной форме</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="justify-content: space-between;">
+        <div class="heading" style="margin-left: 5%;">Услуги</div>
+    </div>
+    <hr class="divider" style="margin: 0 5%; margin-bottom: 3%; min-width: 650px;">
+
+    <div class="service-holder">
+        <div class="service" style="background-image: url(../img/services/info/tining.jpg);" data-url="./service/tining.html">
+                <div class="service-text">Тонировка</div>
+        </div>
+        <div class="service" style="background-image: url('../img/services/info/window.jpg')" data-url="./service/window.html">
+                <div class="service-text">Замена стекл</div>
+        </div>
+        <div class="service" style="background-image: url('../img/services/info/paint.jpg');" data-url="./service/paint.html">
+                <div class="service-text">Покарска</div>
+        </div>
+    </div>
+    
+    <div class="service-holder">
+        <div class="service" style="background-image: url('../img/services/info/TO.jpeg');" data-url="./service/TO.html">
+                <div class="service-text">ТО и ремонт</div>
+        </div>
+        <div class="service" style="background-image: url('../img/services/info/polirovka.jpg');" data-url="./service/polishing.html">
+                <div class="service-text">Полировка</div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../img/ЛОГО.png" alt="Логотип">
+            </div>
+        </a>
+    </div>
+
+    <script src="../js/script-service.js"></script>
+</body>
+</html>

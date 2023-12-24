@@ -54,7 +54,7 @@ html, body {
 }
 
 ul {
-    font-size: clamp(12px, 3vw, 18px);
+    font-size: clamp(10px, 2vw, 18px);
     list-style: none;
     margin: 0 20px;
     padding: 0;
@@ -337,4 +337,49 @@ h3 {
 .sort a.active {
     color: #7395ae;
     transform: scale(1.05);
+}
+
+.service-holder {
+    display: flex;
+    height: 300px;
+    margin: 0 10%;
+}
+
+.service {
+    flex: 1;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    margin: 1%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-width: 200px;
+    overflow: hidden; /* Обрезать изображение в пределах родительского контейнера */
+    transition: transform 0.3s ease; /* Добавляем плавный переход */
+    cursor: pointer;
+}
+
+.service:hover {
+    transform: scale(1.1); /* Увеличиваем изображение при наведении */
+}
+
+.service-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10%;
+    width: 100%;
+    font-size: clamp(25px, 3vw, 30px);
+    color: #fff;
+}
+
+.service::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Черный полупрозрачный фон для затемнения */
 }
