@@ -311,6 +311,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 2% 5%;
+    cursor: pointer;
 }
 
 .sort {
